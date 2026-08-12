@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Canino 🐾</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🐾 Mundo Canino</h1>
+        <button class="theme-toggle-btn" id="theme-btn">🌙 Modo Escuro</button>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>📰 Artigos e Dicas</h2>
+            
+            <article class="card">
+                <h3>Como Entender a Linguagem Corporal do Seu Cão 🐕</h3>
+                <p>Os cães se comunicam o tempo todo através do corpo! Um rabo abanando nem sempre significa alegria; se o corpo estiver rígido, pode indicar alerta. Prestar atenção nas orelhas e na postura ajuda a entender se o pet está relaxado ou ansioso.</p>
+            </article>
+
+            <article class="card">
+                <h3>A Importância dos Jogos de Raciocínio 🧠</h3>
+                <p>Cães precisam exercitar o corpo e a mente. Brincadeiras que escondem petiscos ou brinquedos recheáveis ajudam a reduzir o estresse, evitam o tédio e melhoram o bem-estar do seu amigo de quatro patas.</p>
+            </article>
+        </section>
+
+        <hr class="divider">
+
+        <section>
+            <h2>🎮 Jogos Interativos</h2>
+            
+            <div class="card">
+                <h3>Quiz: Qual o Sentido Mais Apurado do Cachorro?</h3>
+                <p>Teste seus conhecimentos sobre o mundo canino!</p>
+                
+                <button class="quiz-option" onclick="checkAnswer(false)">A) Visão</button>
+                <button class="quiz-option" onclick="checkAnswer(true)">B) Olfato</button>
+                <button class="quiz-option" onclick="checkAnswer(false)">C) Paladar</button>
+
+                <div id="quiz-result"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Feito com carinho para amantes de cães.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
